@@ -1,0 +1,60 @@
+.counter-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.counter {
+    border: 3px solid rgb(192, 192, 192);
+    border-radius: 4px;
+    height: 30px;
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.counter-button-plus-active {
+    border: none;
+    background-color: transparent;
+    height: 100%;
+    font-size: larger;
+    color: red;
+    cursor: pointer;
+}
+
+.counter-button-minus-active {
+    border: none;
+    background-color: transparent;
+    height: 100%;
+    font-size: larger;
+    color: red;
+    cursor: pointer;
+}
+
+.counter-button-minus-desactive {
+    border: none;
+    background-color: transparent;
+    height: 100%;
+    font-size: larger;
+    color: rgb(105, 105, 105);
+    cursor: pointer;
+}
+
+.total button {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: 3px solid red;
+    height: 60px;
+    width: 10%;
+    font-weight: bold;
+}
+
+.total button:hover {
+    filter: brightness(95%);
+}
